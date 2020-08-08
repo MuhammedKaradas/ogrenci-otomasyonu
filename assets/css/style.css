@@ -1,3 +1,18 @@
 body {
     background-color: lightblue;
 }
+
+/*.panel-body {
+    border: 1px solid transparent;
+    display: table;
+    padding: 15px;
+    background-color:white; 
+    opacity:0.9; 
+    margin-top:60px;
+}*/
+
+kutu {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

@@ -4,19 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- BOOTSTRAP STYLES-->
+    <!-- Bootstrap Framework'ünü import ediyoruz.-->
   <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <title>Öğrenci Bilgilendirme Sistemi</title>
-    <style>
-    .kutu {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 25px;
-    }
-    .satir {
-
-    }
-    </style>
 </head>
 
 <body>

@@ -1,26 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- Bootstrap Framework'ünü import ediyoruz.-->
-  <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <title>Öğrenci Bilgilendirme Sistemi</title>
-</head>
+<?php
+      include 'header.php';
+      include 'sidebar.php';
+?>
 
-<body>
-<div class="kutu">
-    <form action="">
-        <label for="studentNumber">Öğrenci Numarası:</label><br>
-        <input type="text" id="studentNumber" name="studentNumber" placeholder="Öğrenci Nu"><br>
-        <label for="password">Parola:</label><br>
-        <input type="password" id="password" name="password" placeholder="Parolanız"><br><br>
-        <input type="submit" value="Giriş Yap">
-    </form>
+<!--İndex Göbek-->
+<!-- /. NAV SIDE  -->
+<div id="page-wrapper">
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-head-line">Duyurular</h1>
+                <h1 class="page-subhead-line"></h1>
+
+            </div>
+        </div>
+        <!-- /. ROW  -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-info">
+                    <i>Önemli Durumda İrtibarta Geçiniz!</i>
+                    
+                </div>
+            </div>
+            
+        </div>
+ 
+    </div>
+    <!-- /. PAGE INNER  -->
 </div>
+<!-- /. PAGE WRAPPER  -->
 
-
-
-</body>
-</html>
+<?php include 'footer.php'; ?>

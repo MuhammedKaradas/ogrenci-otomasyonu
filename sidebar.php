@@ -19,11 +19,6 @@
                 <?php echo "" ?>
                     <div class="inner-text">
                         Hoşgeldin <?php echo "" ?>
-                        
-                        <hr>
-                        <?php echo ""  ?>
-                        <i><p style="font-size:20px; color:green;"><a href=""> Profil Ayarları </a></p></i>
-                        <hr>
                         <small></small>
                         </div>
                     </div>
